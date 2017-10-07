@@ -51,7 +51,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black; }
+  background-color: rgba(0, 0, 0, 0.9); }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -87,10 +87,10 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: black; }
+        background: rgba(0, 0, 0, 0.9); }
       #mainNav .nav-link.active {
         outline: none;
-        background-color: rgba(255, 255, 255, 0.3); }
+        background-color: rgba(255, 255, 255, 0.2); }
       #mainNav .nav-link.active:hover {
           color: white; }
       #mainNav .navbar-brand  {
@@ -205,7 +205,8 @@ footer {
   padding: 50px 0; }
   footer p {
     font-size: 14px;
-    margin: 0; }
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7); }
 
 ::-moz-selection {
   background: #fcfcfc;
