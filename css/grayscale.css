@@ -59,7 +59,7 @@ a {
     border: 1px solid white; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    display: none; }
+    display: block; }
   #mainNav a {
     color: white; }
   #mainNav .navbar-nav .nav-item {
@@ -93,6 +93,8 @@ a {
         background-color: rgba(255, 255, 255, 0.3); }
       #mainNav .nav-link.active:hover {
           color: white; }
+      #mainNav .navbar-brand  {
+          display: none; }    
       #mainNav.navbar-shrink .navbar-brand  {
           display: block; } }
 
